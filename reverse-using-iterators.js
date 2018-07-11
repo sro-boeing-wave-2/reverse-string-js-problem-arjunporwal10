@@ -1,8 +1,8 @@
 // The intent of this file is to reverse the string using iterators (for, foreach)
 const reverse = (text) => {
-  const arrlen = text.length;
+  const strlen = text.length;
   let newstr = '';
-  for (let i = arrlen - 1; i >= 0; i -= 1) {
+  for (let i = strlen - 1; i >= 0; i -= 1) {
     newstr += text[i];
   }
   return newstr;
